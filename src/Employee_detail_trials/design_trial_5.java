@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jdbc_design_trials;
+package Employee_detail_trials;
 
 import java.awt.Color;
 import java.sql.*;
@@ -11,13 +11,13 @@ import javax.swing.*;
 import net.proteanit.sql.DbUtils;
 
 public class design_trial_5 extends javax.swing.JFrame {
+    static int a=5;
 
-    
     public design_trial_5() {
         initComponents();
         DBTABLE();
         getContentPane().setBackground(Color.WHITE); 
-        
+              
     }
 
     @SuppressWarnings("unchecked")
